@@ -1,0 +1,25 @@
+{
+  "name": "verify-students-backend",
+  "version": "1.0.0",
+  "description": "ExpressJs server to get access token from Github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "oauth2",
+    "express",
+    "node"
+  ],
+  "author": "Ginny Tran",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
