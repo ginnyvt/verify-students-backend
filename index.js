@@ -17,6 +17,10 @@ app.use((req, res, next) => {
 app.use(cors());
 app.use(express.json());
 
+app.get('/', (req, res) => {
+	res.send('Hello');
+});
+
 app.get('/access_token', async (req, res) => {
 	const code = req.query.code;
 	try {
